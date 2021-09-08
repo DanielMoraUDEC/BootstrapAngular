@@ -14,6 +14,6 @@ export class AppComponent {
     {id: 3, nombre:"Alexandra", email:"alexandra@gamil.com",telefono:"3112344334"},
   ];
 
-  
+
 
 }

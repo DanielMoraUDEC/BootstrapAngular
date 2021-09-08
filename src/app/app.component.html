@@ -1,21 +1,30 @@
-<p class="h1 text-center text-light" >Bootstrap</p>
-<p class="h2 text-light">Tabla de prueba</p>
+<p class="h1 text-center text-light">Bootstrap</p>
 
-<table class="table table-dark table-striped table-hover">
-  <thead>
-    <tr>
-      <th scope="col">ID</th>
-      <th scope="col">Nombre</th>
-      <th scope="col">Email</th>
-      <th scope="col">Teléfono</th>
-    </tr>
-  </thead>
-  <tbody *ngFor="let empleado of empleadoArray">
-    <tr>
-      <td scope="row">{{empleado.id}}</td>
-      <td>{{empleado.nombre}}</td>
-      <td>{{empleado.email}}</td>
-      <td>{{empleado.telefono}}</td>
-    </tr>
-  </tbody>
-</table>
+<div class="container">
+  <div class="col-12">
+    
+      <p class="h2 text-light">Tabla de prueba</p>
+  
+      <table class="table table-dark table-striped table-hover">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Email</th>
+            <th scope="col">Teléfono</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let empleado of empleadoArray">
+          <tr>
+            <td scope="row">{{ empleado.id }}</td>
+            <td>{{ empleado.nombre }}</td>
+            <td>{{ empleado.email }}</td>
+            <td>{{ empleado.telefono }}</td>
+          </tr>
+        </tbody>
+      </table>
+  
+  </div>
+  
+</div>
+
