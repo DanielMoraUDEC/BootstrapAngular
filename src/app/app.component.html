@@ -14,7 +14,7 @@
             <th scope="col">Teléfono</th>
           </tr>
         </thead>
-        <tbody *ngFor="let empleado of empleadoArray">
+        <tbody *ngFor="let empleado of listaEmpleados">
           <tr>
             <td scope="row">{{ empleado.id }}</td>
             <td>{{ empleado.nombre }}</td>
@@ -25,6 +25,25 @@
       </table>
   
   </div>
+
+  <div class="progress">
+    <div id="barra" class="progress-bar active progress-bar-striped progress-bar-animated  inicio animar " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+
+<br>
+
+<div class="row">
+  <div class="col-5">
+  </div>
+  <div class="col-2">
+    <button id="boton" class="btn btn-success" (click)="animar()">Animar</button>
+  </div>
   
 </div>
+  
+</div>
+
+
+  
 

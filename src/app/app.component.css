@@ -1,0 +1,9 @@
+.inicio{
+ width: 0%;
+}
+.final{
+    width: 100%;
+}
+.animar{
+    transition: all 3s ease .5s;
+}
